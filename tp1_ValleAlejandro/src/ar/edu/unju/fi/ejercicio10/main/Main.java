@@ -14,13 +14,8 @@ public class Main {
             int diametro = Integer.parseInt(scanner.nextLine());
             pizza.setDiametro(diametro);
 
-            System.out.print("¿Lleva ingredientes especiales? (S/N): ");
-            char respuesta = scanner.next().charAt(0);
-            boolean tieneIngredientes = false;
-            
-            if (respuesta=='S'|| respuesta == 's')
-            	tieneIngredientes = true;
-
+            System.out.print("¿Lleva ingredientes especiales? (true/false): ");
+            boolean tieneIngredientes = Boolean.parseBoolean(scanner.nextLine());
             pizza.setIngredientesEspeciales(tieneIngredientes);
 
             pizza.calcularPrecio();
