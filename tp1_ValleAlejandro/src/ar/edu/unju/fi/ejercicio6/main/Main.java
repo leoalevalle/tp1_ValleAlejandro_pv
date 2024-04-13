@@ -1,7 +1,7 @@
-package ar.edu.unju.fi.ejercicio6;
+package ar.edu.unju.fi.ejercicio6.main;
 import java.time.LocalDate;
 import java.util.Scanner;
-import ar.edu.unju.fi.ejercicio6.*;
+import ar.edu.unju.fi.ejercicio6.model.Persona;
 
 public class Main {
 
@@ -24,7 +24,7 @@ public class Main {
         String dni2 = scanner.nextLine();
         System.out.println("Ingrese nombre:");
         String nombre2 = scanner.nextLine();
-        System.out.println("Ingrese fecha de nacimiento (yyyy-MM-dd):");
+        System.out.println("Ingrese fecha de nacimiento (yyyy-mm-dd ejemplo(2000-01-30)):");
         LocalDate fechaNacimiento2 = LocalDate.parse(scanner.nextLine());
         System.out.println("Ingrese provincia:");
         String provincia2 = scanner.nextLine();
