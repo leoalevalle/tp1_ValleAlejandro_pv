@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		int a, b, c, d, e;
-		float suma, resultado;
+		double suma, resultado;
 		a = 8;
 		b = 5;
 		c = 1;
