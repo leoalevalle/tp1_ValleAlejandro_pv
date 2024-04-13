@@ -13,7 +13,7 @@ public class Main {
 	        System.out.println("Nombre del país: " + nombrePais);
 	        System.out.println("Edad de la persona: " + edadPersona + " años");
 	        System.out.println("Altura del edificio: " + alturaEdificio + " metros");
-	        System.out.println("Precio del producto: " + precioProducto + " euros");
+	        System.out.println("Precio del producto: " + precioProducto + " pesos");
 	        System.out.println("Número de teléfono: " + numeroTelefono);
 	        System.out.println("Cálculo del coseno de 0.5: " + coseno);
 	}
